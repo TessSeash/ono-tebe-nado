@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href=".\styles\global.css" />
-    <link rel="stylesheet" href=".\styles\style.css" />
-    <link rel="stylesheet" href=".\fonts\fonts.css" />
+    <link rel="icon" href="./images/logo-black.svg">
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body>
@@ -16,25 +17,26 @@
         <nav class="header-menu">
           <ul class="ul-menu">
             <li><a href="#main" style="text-decoration-line: none;">главная</a></li>
-            <hr />
-            <li><a href="#lots" class="underline">посмотреть лоты</a></li>
-            <hr />
-            <li><a href="#about" class="underline">об аукционе</a></li>
+            
+            <li class="li-circle"><a href="#lots" class="underline">посмотреть лоты</a></li>
+          
+            <li class="li-circle"><a href="#about" class="underline">об аукционе</a></li>
           </ul>
         </nav>
 
         <div class="header-logo">
-          <img
+          <a href=""><img
             class="header-logo-img"
-            src=".\images\logo-black.svg"
+            src="./images/logo-black.svg"
             alt="Логотип: Оно тебе надо"
           />
+        </a>
         </div>
 
         <div class="header-contacts">
           <ul class="ul-contacts">
-            <li class="underline">+9 999 555 5555</li>
-            <li class="underline">info@sobaka.ge</li>
+            <li><a class="underline" href="">+9 999 555 5555</a></li>
+            <li><a class="underline" href="">info@sobaka.ge</a></li>
             <li>наб. Принсенграхт 263- 265, Амстердам</li>
           </ul>
         </div>
@@ -130,7 +132,7 @@
           <div class="about-logo-background">
             <img
               class="about-logo"
-              src=".\images\logo-white.svg"
+              src="./images/logo-white.svg"
               alt="Логотип: Оно тебе надо"
             />
           </div>
@@ -163,14 +165,13 @@
         <div class="footer-subsection">
           <div class="footer-contacts">
             <ul class="ul-contacts">
-              <li class="underline">+9 999 555 5555</li>
-              <li class="underline">info@sobaka.ge</li>
+              <li><a class="underline" href="">+9 999 555 5555</a></li>
+              <li><a class="underline" href="">info@sobaka.ge</a></li>
               <li>наб. Принсенграхт 263- 265, Амстердам</li>
             </ul>
           </div>
           <nav class="footer-menu">
             <ul class="footer-ul-menu">
-              <!--В макете нет нижнего подчеркивания под "главная" в подвале, я бы сделал, но хозяин - барин-->
               <li><a href="#main" class="underline" style="text-decoration-line: none;">главная</a></li>
 
               <li><a href="#lots" class="underline">посмотреть лоты</a></li>
@@ -179,9 +180,9 @@
             </ul>
           </nav>
           <div class="footer-socials">
-            <div class="YouTube"></div>
-            <div class="VK"></div>
-            <div class="Pinterest"></div>
+            <a href="https://youtube.com/" target="_blank"><div class="YouTube"></div></a>
+            <a href="https://vk.com/" target="_blank"><div class="VK"></div></a>
+            <a href="https://pinterest.com/" target="_blank"><div class="Pinterest"></div></a>
           </div>
         </div>
       </div>

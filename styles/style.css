@@ -31,11 +31,14 @@ body {
   height: 105px;
   width: 148px;
 }
-
+.li-circle{
+  list-style: circle outside;
+}
 .ul-menu {
   display: flex;
-  list-style: none inside;
-  justify-content: center;
+  list-style: none outside;
+  justify-content: space-between;
+  width: 391px;
   font-size: 18px;
 }
 .ul-contacts {
@@ -43,16 +46,6 @@ body {
   width: 240px;
 }
 
-hr {
-  /*круглишок между элементами списка (в навигационном меню в хедере)*/
-  width: 7px;
-  height: 7px;
-  margin-top: 8px;
-  margin-left: 15px;
-  margin-right: 12px;
-  border: 1px solid black;
-  border-radius: 50%;
-}
 
 .underline {
   text-decoration: underline;
@@ -180,7 +173,6 @@ hr {
   margin-top: 50px;
   position: relative;
   color: white;
-  width: 300px;
   height: 468px;
   z-index: 2;
   display: flex;
