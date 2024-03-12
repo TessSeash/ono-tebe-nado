@@ -1,1 +1,326 @@
 /* место для вашего кода */
+
+body {
+  background-color: black;
+}
+
+.header {
+  height: 293px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu,
+.header-logo,
+.header-contacts {
+  position: absolute;
+}
+.header-contacts {
+  font-size: 18px;
+  line-height: 1.38em;
+  margin-left: 763px;
+}
+
+.header-menu {
+  margin-right: 610px;
+}
+
+.header-logo-img {
+  height: 105px;
+  width: 148px;
+}
+
+.ul-menu {
+  display: flex;
+  list-style: none inside;
+  justify-content: center;
+  font-size: 18px;
+}
+.ul-contacts {
+  list-style: none inside;
+  width: 240px;
+}
+
+hr {
+  /*круглишок между элементами списка (в навигационном меню в хедере)*/
+  width: 7px;
+  height: 7px;
+  margin-top: 8px;
+  margin-left: 15px;
+  margin-right: 12px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.main-section {
+  display: flex;
+  height: 757px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.dark-background {
+  width: 100%;
+  height: 757px;
+  opacity: 0.6;
+  background-color: black;
+}
+
+.slogan {
+  position: absolute;
+  width: 1000px;
+  height: 355px;
+  margin: 165px 0 237px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.word1,
+.word2,
+.word3 {
+  color: white;
+  font-size: 100px;
+  letter-spacing: 30px;
+  width: 500px;
+  height: fit-content;
+}
+.word1 {
+  margin-left: 50px;
+  word-spacing: -25px;
+}
+.word2 {
+  margin-left: 335px;
+  word-spacing: -25px;
+  padding-top: 10px;
+}
+.word3 {
+  margin-left: 635px;
+  word-spacing: -22px;
+}
+
+.auction {
+  color: white;
+  position: absolute;
+  width: 637px;
+  height: 28px;
+  z-index: 2;
+  margin: 667px 385px 62px 78px;
+}
+
+.button-place-bet {
+  color: white;
+  position: absolute;
+  border: 1px solid white;
+  width: 256px;
+  height: 51px;
+  font-size: 22px;
+  background-color: transparent;
+  margin: 655px 0 0 794px;
+  text-align: center;
+}
+
+.lots-section {
+  background-color: white;
+  height: 871px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.lots-subsection {
+  width: 1052px;
+  height: 692px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 27px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 334px;
+  height: 563px;
+  display: flex;
+  justify-content: center;
+}
+
+.card1-image {
+  background-image: url(../images/card-lot-01.jpg);
+}
+.card2-image {
+  background-image: url(../images/card-lot-02.jpg);
+}
+.card3-image {
+  background-image: url(../images/card-lot-03.jpg);
+}
+.card-image-size {
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 334px;
+  height: 563px;
+  z-index: 1;
+  filter: brightness(0.4);
+}
+
+.card1-content,
+.card2-content,
+.card3-content {
+  margin-top: 50px;
+  position: relative;
+  color: white;
+  width: 300px;
+  height: 468px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 254px;
+}
+.card1-headline,
+.card2-headline,
+.card3-headline {
+  font-size: 19px;
+  text-decoration: underline;
+  text-underline-position: under;
+  text-decoration-thickness: 1px;
+  text-underline-offset: -1px;
+}
+
+blockquote {
+  font-size: 20px;
+}
+
+.lots-section-name {
+  padding-left: 40px;
+  font-size: 26px;
+}
+.lots-show-more {
+  width: inherit;
+  position: absolute;
+  margin-right: 780px;
+  font-size: 20px;
+}
+
+.about-section {
+  display: flex;
+  height: 921px;
+  background-color: white;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.about-content {
+  width: 1052px;
+  height: 775px;
+  display: flex;
+}
+
+.about-logo-background {
+  height: 240px;
+  width: 240px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+  margin-top: 35px;
+}
+
+.about-logo {
+  height: 118px;
+  width: 148px;
+}
+.about-text {
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 358px;
+  width: 693px;
+  height: 540px;
+}
+
+.about-auction-text {
+  display: flex;
+  flex-direction: column;
+
+  width: 688px;
+  justify-content: space-between;
+  letter-spacing: 0.01em;
+  position: absolute;
+}
+.first-p-text {
+  font-size: 20px;
+  width: 690px;
+  height: 120px;
+  line-height: 120%;
+  margin-top: 100px;
+}
+
+.second-p-text {
+  margin-top: 24px;
+  font-size: 20px;
+  width: 700px;
+  height: fit-content;
+  line-height: 120%;
+}
+.footer-section {
+  background-color: white;
+  height: 186px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-contacts {
+  font-size: 18px;
+  line-height: 1.38em;
+}
+
+.footer-ul-menu {
+  list-style: none inside;
+  justify-content: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-socials {
+  width: 240px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-subsection {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.YouTube {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/yt.svg);
+}
+
+.VK {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/vk.svg);
+}
+
+.Pinterest {
+  width: 48px;
+  height: 48px;
+  background-image: url(../images/pinterest.svg);
+}
