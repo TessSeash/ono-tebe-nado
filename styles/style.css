@@ -31,7 +31,7 @@ body {
   height: 105px;
   width: 148px;
 }
-.li-circle{
+.li-circle {
   list-style: circle outside;
 }
 .ul-menu {
@@ -45,7 +45,6 @@ body {
   list-style: none inside;
   width: 240px;
 }
-
 
 .underline {
   text-decoration: underline;
