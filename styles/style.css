@@ -43,6 +43,10 @@
   width: 290px;
 }
 
+address{
+  font-style: normal;
+}
+
 .contacts {
   list-style: none inside;
   width: 240px;
@@ -90,23 +94,17 @@
   flex-direction: column;
 }
 
-.left-word,
-.center-word,
-.right-word {
-  padding-top: 10px;
-}
-
 .left-word {
-  padding-top: 10px;
+  padding-top: 5px;
   line-height: 115%;
 }
 
 .center-word {
+  padding-top: 10px;
   text-align: center;
 }
 
 .right-word {
-  margin-top: -10px;
   text-align: end;
 }
 
@@ -177,7 +175,7 @@
 
 .card-style {
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   display: flex;
   position: relative;
   justify-content: center;
@@ -326,9 +324,7 @@ footer {
   background-image: url(../images/pinterest.svg);
 }
 
-.youtube,
-.vk,
-.pinterest {
+.footer-socials div {
   width: 48px;
   height: 48px;
 }
